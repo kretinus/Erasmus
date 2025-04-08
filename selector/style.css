@@ -1,0 +1,31 @@
+/*selector universal*/
+
+*{
+    background-color: rgb(232, 112, 172);
+    font-style: italic;
+    color: black;  
+}
+
+/* Selector de elemento*/
+
+header {
+    background-color: aquamarine;
+    color: azure;
+    font-family: monospace;
+}
+
+
+/* selector de la clase*/
+
+.subTitulo {
+    background-color: black;
+    color: chartreuse;
+}
+
+/* selector de la id */
+
+#description {
+    background-color: darkorchid;
+    color: black;
+    font-size: 1.2em;
+}

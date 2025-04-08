@@ -1,0 +1,36 @@
+/*Url documentation Flexbox y CSS-Grid*/
+/*https://css-tricks.com/snippets/css/a0guide-to-flexbox/ */
+/*https://css-tricks.com/snippets/css/complete-guide-grid */
+/*Docs*/
+
+/*Flexbox: https://flexboxfroggy.com/ */
+/*CSS Grid: https//cssgridguide.com/ */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*display flex (flexbox)*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400px;
+}
+
+.item {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding: 8px;
+    text-align: justify;
+    overflow: hidden;
+}

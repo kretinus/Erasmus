@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+header {
+    background-color: lightsalmon;
+    color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+}
+
+header .h1, h2, h3 {
+    padding: 5px;
+    
+}
+
+section{
+    background-color: lightgreen;
+    padding-inline: 10px;
+}

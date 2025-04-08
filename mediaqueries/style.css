@@ -1,0 +1,55 @@
+/*Media Queries */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header {
+    text-align: center;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+
+}
+
+section {
+    width: 100%;
+    max-width: 1024px;
+    background-color: grey;
+    margin: 0 auto;
+
+}
+
+section article {
+    width: 88%;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/*Aplicando los Media Queries*/
+
+@media(min-width: 1024px) {
+    h1 {
+        background-color: azure;
+        font-size: 18px;
+        color: black;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 640px) {
+    h1 {
+        background-color: rgb(142, 21, 249);
+        font-size:1.5rem;
+        color: black;
+    }
+}
+
