@@ -9,5 +9,7 @@ git add .
 guadarlo en el historical
 git commit -m "description of the changes"
 
-Subirlo a github
+Subirlo a github (publish)
 git push origin main
+
+sincronizar cambios
