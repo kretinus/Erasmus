@@ -13,3 +13,5 @@ Subirlo a github (publish)
 git push origin main
 
 sincronizar cambios
+
+lines added remotely
