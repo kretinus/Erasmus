@@ -12,6 +12,15 @@ git commit -m "description of the changes"
 Subirlo a github (publish)
 git push origin main
 
+
+
+
+
+
+
+
+
+
 sincronizar cambios
 git pull origin main //descargar desde repositorio remoto
 git push origin main //subir al repositorio remoto
